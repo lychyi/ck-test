@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <AppletIcon
         className={wobbling ? "wobble-hor-bottom" : ""}
         onAnimationEnd={clearWobbling}
-        size={768}
+        size={128}
         icon={anniversariesIcon}
       />
       <Button buttonType={Button.Types.Primary} onClick={() => setWobbling(true)}>We're Live!*</Button>
